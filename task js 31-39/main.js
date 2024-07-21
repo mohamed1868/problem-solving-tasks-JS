@@ -232,22 +232,22 @@ if (job === "Manager") {
 
 switch (job) {
     case "Manager":
-        console.log("8000")
+       salary = 8000; 
+        console.log(salary)
         break
     case "IT":
-        console.log("6000")
-        break
-    case "Support":
-        console.log("6000")
+    case "Support":  
+        salary = 6000; 
+        console.log(salary)
         break
     case "Developer":
-        console.log("8000")
-        break
-    case "Designer":
-        console.log("8000")
+    case "Designer": 
+        salary = 7000; 
+        console.log(salary)
         break
     default:
-        console.log("4000")
+        salary = 4000; 
+        console.log(salary)
         break
 }
 
