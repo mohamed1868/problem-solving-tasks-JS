@@ -61,7 +61,7 @@ let twoNums = {
     f: 6,
 };
 
-let finalObject = Object.assign({}, [a], threeNums, twoNums)
+let finalObject = Object.assign([a], threeNums, twoNums)
 
 
 console.log(finalObject);
